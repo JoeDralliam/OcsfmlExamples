@@ -1,0 +1,10 @@
+
+
+<Examples/clock.{{d.n,}byte,native,ml}> : package( ocsfml.system )
+<Examples/audio.{{d.,}byte,native,ml}> : package( ocsfml.audio )
+<Examples/pong.{{d.,}byte,native,ml}> : package( ocsfml.graphics ), package( ocsfml.audio )
+<Examples/shader.{{d.,}byte,native,ml}> : package( ocsfml.graphics )
+<Examples/sockets.{{d.,}byte,native,ml}> : package( ocsfml.network )
+<Examples/graphicClock.{{d.,}byte,native,ml}> : package( ocsfml.graphics ), package( unix )
+
+

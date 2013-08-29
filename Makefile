@@ -7,12 +7,12 @@ clean:
 	$(OCAMLBUILD) -clean
 
 byte:
-	$(OCAMLBUILD) -lflag -custom Examples/clock.byte
-	$(OCAMLBUILD) -lflag -custom Examples/pong.byte
-	$(OCAMLBUILD) -lflag -custom Examples/shader.byte
-	$(OCAMLBUILD) -lflag -custom Examples/sockets.byte
-	$(OCAMLBUILD) -lflag -custom Examples/audio.byte
-	$(OCAMLBUILD) -lflag -custom Examples/graphicClock.byte
+	$(OCAMLBUILD) Examples/clock.byte
+	$(OCAMLBUILD) Examples/pong.byte
+	$(OCAMLBUILD) Examples/shader.byte
+	$(OCAMLBUILD) Examples/sockets.byte
+	$(OCAMLBUILD) Examples/audio.byte
+	$(OCAMLBUILD) Examples/graphicClock.byte
 
 native:
 	$(OCAMLBUILD) Examples/clock.native

@@ -13,6 +13,7 @@ byte:
 	$(OCAMLBUILD) Examples/sockets.byte
 	$(OCAMLBUILD) Examples/audio.byte
 	$(OCAMLBUILD) Examples/graphicClock.byte
+	$(OCAMLBUILD) Examples/sound_capture.byte
 
 native:
 	$(OCAMLBUILD) Examples/clock.native
@@ -21,3 +22,4 @@ native:
 	$(OCAMLBUILD) Examples/sockets.native 
 	$(OCAMLBUILD) Examples/audio.native 
 	$(OCAMLBUILD) Examples/graphicClock.native
+	$(OCAMLBUILD) Examples/sound_capture.native

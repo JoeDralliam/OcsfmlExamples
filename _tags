@@ -6,5 +6,5 @@
 <Examples/shader.{{d.,}byte,native,ml}> : package( ocsfml.graphics )
 <Examples/sockets.{{d.,}byte,native,ml}> : package( ocsfml.network )
 <Examples/graphicClock.{{d.,}byte,native,ml}> : package( ocsfml.graphics ), package( unix )
-
+<Examples/sound_capture.{{d.,}byte,native,ml}> : package( ocsfml.audio )
 

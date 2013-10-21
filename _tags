@@ -1,4 +1,3 @@
-
 <Examples/*.byte>: custom
 <Examples/clock.{{d.n,}byte,native,ml}> : package( ocsfml.system )
 <Examples/audio.{{d.,}byte,native,ml}> : package( ocsfml.audio )

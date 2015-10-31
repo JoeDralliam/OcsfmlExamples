@@ -26,9 +26,9 @@ native:
 	$(OCAMLBUILD) Examples/sound_capture.native
 
 install:
-	mkdir -p ${PREFIX}/Ocsfml/Examples && \
-  cp _build/Examples/*.native ${PREFIX}/Ocsfml/Examples && \
-	cp _build/Examples/*.byte ${PREFIX}/Ocsfml/Examples && \
-	cp -R resources ${PREFIX}/Ocsfml/Examples/resources
+	mkdir -p ${PREFIX}/share/Ocsfml/Examples && \
+  cp _build/Examples/*.native ${PREFIX}/share/Ocsfml/Examples && \
+	cp _build/Examples/*.byte ${PREFIX}/share/Ocsfml/Examples && \
+	cp -R resources ${PREFIX}/share/Ocsfml/Examples/resources
 uninstall:
-	rm -R ${PREFIX}/Ocsfml
+	rm -R ${PREFIX}/share/Ocsfml

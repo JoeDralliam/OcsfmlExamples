@@ -1,5 +1,6 @@
 OCAMLBUILD=ocamlbuild -use-ocamlfind
 OCAMLBUILD_DIR=$(shell ocamlbuild -where)
+PREFIX=/usr/local/share
 
 all:byte native
 
@@ -23,3 +24,11 @@ native:
 	$(OCAMLBUILD) Examples/audio.native 
 	$(OCAMLBUILD) Examples/graphicClock.native
 	$(OCAMLBUILD) Examples/sound_capture.native
+
+install:
+	mkdir -p ${PREFIX}/Ocsfml/Examples && \
+  cp _build/Examples/*.native ${PREFIX}/Ocsfml/Examples && \
+	cp _build/Examples/*.byte ${PREFIX}/Ocsfml/Examples && \
+	cp -R resources ${PREFIX}/Ocsfml/Examples/resources
+uninstall:
+	rm -R ${PREFIX}/Ocsfml

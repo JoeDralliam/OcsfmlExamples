@@ -1,6 +1,6 @@
 opam-version: "1.2"
 name: "ocsfml-examples"
-version: "~unknown"
+version: "1.0"
 maintainer: "Joe Dralliam <jdralliam@gmail.com>"
 authors: "Joe Dralliam <jdralliam@gmail.com>"
 homepage: "https://github.com/JoeDralliam/OcsfmlExamples"

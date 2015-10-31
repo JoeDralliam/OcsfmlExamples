@@ -11,7 +11,7 @@ script:
   - rm -fR SFML-2.3.2
   - bash -ex .travis-opam.sh
 env:
- - OCAML_VERSION=4.02 UBUNTU_TRUSTY=1 PACKAGE=ocsfml-dev EXTRA_REMOTES="git://github.com/JoeDralliam/opam-repository"
+ - OCAML_VERSION=4.02 UBUNTU_TRUSTY=1 PACKAGE=ocsfml-examples EXTRA_REMOTES="git://github.com/JoeDralliam/opam-repository"
 os:
   - linux
 addons:

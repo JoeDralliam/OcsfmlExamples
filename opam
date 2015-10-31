@@ -10,7 +10,7 @@ build: [
   [make]
 ]
 install: [make "PREFIX=%{prefix}%" "install"]
-remove: [make "uninstall"]
+remove: [make "PREFIX=%{prefix}%" "uninstall"]
 depends: [
   "ocsfml-dev"
 ]
